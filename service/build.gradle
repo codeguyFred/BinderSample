@@ -5,8 +5,10 @@ plugins {
 
 android {
     namespace 'cn.codeguy.service'
-    compileSdk 33
-
+    compileSdk 34
+    buildFeatures{
+        aidl true
+    }
     defaultConfig {
         applicationId "cn.codeguy.service"
         minSdk 31
